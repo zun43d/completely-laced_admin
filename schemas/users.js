@@ -1,8 +1,28 @@
 export default {
-	name: 'newsletter',
-	title: 'Newsletter',
+	name: 'users',
+	title: 'Users',
 	type: 'document',
 	fields: [
+		{
+			name: 'firstName',
+			title: 'First Name',
+			type: 'string',
+		},
+		{
+			name: 'lastName',
+			title: 'Last Name',
+			type: 'string',
+		},
+		{
+			name: 'address',
+			title: 'Mailing Address',
+			type: 'string',
+		},
+		{
+			name: 'phone',
+			title: 'Phone',
+			type: 'string',
+		},
 		{
 			name: 'email',
 			title: 'Email',
